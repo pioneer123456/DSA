@@ -2,13 +2,14 @@
 int main(){
     int i,j;
     int n=5;
-    for (i=0;i<n;i++)
+    for (i=1;i<=n;i++)
     {
-      for(j=n;j=n-i;j--)
-        {
-            printf(" ");
-        } 
-      for(j=0;j<=i;j++)
+        for(j=n;j>=i;j--)
+            {
+                printf(" ");
+            }
+        
+      for(j=1;j<=i;j++)
         {
             printf("*");
         } 
